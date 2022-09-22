@@ -1,4 +1,5 @@
-// Kelvin will stay constant.  Kelvin is a temp
+// Kelvin will stay constant.  Kelvin is  Today's temp
+// https://en.wikipedia.org/wiki/Kelvin
 const kelvin = 310
 // celsius is 273 less than kelvin
 let celsius = kelvin - 273
@@ -9,3 +10,7 @@ fahrenheit = Math.floor(fahrenheit)
 console.log(kelvin + " in kelvin")
 console.log(celsius + " in celsius")
 console.log(`The temperature is ${fahrenheit}`)
+
+let newton = celsius * (33/100)
+// Temp in Newton
+console.log(Math.floor(newton) + `in newton`)
