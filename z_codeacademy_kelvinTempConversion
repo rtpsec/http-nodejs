@@ -1,0 +1,11 @@
+// Kelvin will stay constant.  Kelvin is a temp
+const kelvin = 310
+// celsius is 273 less than kelvin
+let celsius = kelvin - 273
+let fahrenheit = celsius * (9/5) + 32
+// rounding down a decimal number.
+fahrenheit = Math.floor(fahrenheit)
+
+console.log(kelvin + " in kelvin")
+console.log(celsius + " in celsius")
+console.log(`The temperature is ${fahrenheit}`)
